@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#00bfff"
-            android:src="@drawable/ic_whatsapp_image_2021_04_14_at_09_35_08"
+            android:src="@drawable/download"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

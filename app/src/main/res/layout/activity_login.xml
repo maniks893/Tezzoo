@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@drawable/ic_launcher_background">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
          <ImageView
              android:layout_width="match_parent"
              android:layout_height="260dp"
-             android:src="@drawable/ic_copy_of_teezoo_logo_29th_sep_180x">
+             android:src="@drawable/download">
 
          </ImageView>
 
@@ -93,18 +93,27 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/otp_btn"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="20dp"
-            android:text="Send OTP"
-            android:textStyle="bold" />
+            android:layout_height="wrap_content" >
 
+            <Button
+                android:id="@+id/otp_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Send OTP"
+                android:textStyle="bold" />
 
+            <ProgressBar
+                android:id="@+id/progress_login_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
 
-
+        </FrameLayout>
 
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

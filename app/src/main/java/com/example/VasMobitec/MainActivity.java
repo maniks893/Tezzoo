@@ -1,4 +1,4 @@
-package com.example.teezoo;
+package com.example.VasMobitec;
 
 import androidx.appcompat.app.AppCompatActivity;
 

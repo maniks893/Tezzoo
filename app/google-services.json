@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948502223779",
+    "project_id": "vasmobitech-19b77",
+    "storage_bucket": "vasmobitech-19b77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948502223779:android:c1c7b5135c8bfeb2b95816",
+        "android_client_info": {
+          "package_name": "com.example.teezoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948502223779-teoc2vmo5e65m39bmgeg40gobhflhe4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9tOc2nuJKOfsjA4NhN9PN4PHTHXMT5eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948502223779-teoc2vmo5e65m39bmgeg40gobhflhe4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
