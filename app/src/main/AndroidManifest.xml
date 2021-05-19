@@ -11,7 +11,9 @@
         android:roundIcon="@drawable/bg_2"
         android:supportsRtl="true"
         android:theme="@style/Theme.Teezoo">
-        <activity android:name="com.example.VasMobitec.dashboard"></activity>
+        <activity android:name="com.example.VasMobitec.dashboard">
+
+        </activity>
         <activity android:name="com.example.VasMobitec.OtpActivity" />
         <activity android:name="com.example.VasMobitec.LoginActivity">
             <intent-filter>
@@ -26,6 +28,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
