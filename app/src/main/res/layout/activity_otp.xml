@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:overScrollMode="never"
     android:scrollbars="none"
+    android:background="@color/white"
     tools:context=".OtpActivity">
 
 
@@ -51,6 +52,7 @@
             android:layout_marginEnd="50dp"
             android:gravity="center"
             android:textColor="@color/black"
+            android:background="@drawable/background"
             android:textSize="14sp" />
 
 

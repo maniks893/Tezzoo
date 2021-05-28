@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_two"
+    tools:context=".Plans_Activity"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="#555555"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:gravity="center"
+                android:text="PLAN A"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rating &amp; Customer\n informations"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Review and Rating"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Details"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Facebook Checkin"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/background"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text=" \n "
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:id="@+id/btn_planA"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="SUBMIT"
+                android:textColor="#2BC0D1"
+                android:background="@drawable/backg_2"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:background="#555555"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="PLAN B"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Rating &amp; Customer\n Information"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Google Review and Rating"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Customer Details"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Facebook Checkin"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Thanks Transaction\n Message"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btn_planB"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="SUBMIT"
+                android:textColor="#2BC0D1"
+                android:background="@drawable/backg_2"
+                android:layout_marginTop="20dp"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

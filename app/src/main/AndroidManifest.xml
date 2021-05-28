@@ -3,6 +3,9 @@
     package="com.example.VasMobitec">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -10,24 +13,34 @@
         android:label="VasMobitec"
         android:roundIcon="@drawable/bg_2"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Teezoo">
-        <activity android:name="com.example.VasMobitec.dashboard">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".QRcodeActivity">
+        </activity>
+        <activity android:name=".UPIActivity" />
+        <activity android:name=".PaymentMoadeActivity">
 
         </activity>
-        <activity android:name="com.example.VasMobitec.OtpActivity" />
-        <activity android:name="com.example.VasMobitec.LoginActivity">
+        <activity android:name=".BplanActivity" />
+        <activity android:name=".AplanActivity" />
+        <activity android:name=".OtpActivity2" />
+        <activity android:name=".Plans_Activity" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".OtpActivity" />
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.VasMobitec.MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
 
         </activity>
     </application>

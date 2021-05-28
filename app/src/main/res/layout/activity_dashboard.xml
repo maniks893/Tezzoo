@@ -275,6 +275,7 @@
             android:inputType="number"
             android:textColor="@color/white"
             android:textColorHint="@color/black"
+            android:maxLength="6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textView4"
             app:layout_constraintTop_toTopOf="parent" />
@@ -344,8 +345,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
                 android:hint="Enter Phone number"
                 android:inputType="number"
+                android:maxLength="10"
+
                 android:textColor="@color/white"
                 android:textColorHint="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -391,36 +396,38 @@
 
         </LinearLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginTop="22dp">
-
-        <Button
-            android:id="@+id/reg_button"
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="SUBMIT"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/reset_button"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_marginTop="22dp"
+            android:orientation="horizontal">
 
-        <Button
+            <Button
+                android:id="@+id/reg_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="SUBMIT"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/reset_button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-            android:id="@+id/reset_button"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="116dp"
-            android:layout_marginLeft="116dp"
-            android:text="RESET"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+
+                android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="116dp"
+                android:layout_marginLeft="116dp"
+                android:text="RESET"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 
