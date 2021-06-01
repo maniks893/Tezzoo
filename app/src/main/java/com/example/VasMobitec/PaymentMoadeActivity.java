@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -19,6 +20,7 @@ public class PaymentMoadeActivity extends AppCompatActivity implements PaymentRe
 {
 
     Button upi, paypal, qrgen;
+    ImageView rev2plan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +32,15 @@ public class PaymentMoadeActivity extends AppCompatActivity implements PaymentRe
         upi = findViewById(R.id.btn_upi);
         qrgen = findViewById(R.id.btn_qrgn);
         paypal = findViewById(R.id.btn_paypal);
+        rev2plan = findViewById(R.id.rev2slt);
+
+        rev2plan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),plans.class);
+                startActivity(intent);
+            }
+        });
 
         qrgen.setOnClickListener(new View.OnClickListener() {
             @Override

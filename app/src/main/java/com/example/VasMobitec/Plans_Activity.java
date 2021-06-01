@@ -11,12 +11,14 @@ public class Plans_Activity extends AppCompatActivity {
 
     Button planA, planB;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plans);
         planA = findViewById(R.id.btn_planA);
         planB = findViewById(R.id.btn_planB);
+
 
         planA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +37,8 @@ public class Plans_Activity extends AppCompatActivity {
             }
         });
     }
+
+
 
 
 }

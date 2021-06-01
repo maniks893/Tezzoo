@@ -21,10 +21,15 @@
 
         </activity>
         <activity android:name=".BplanActivity" />
-        <activity android:name=".AplanActivity" />
+        <activity android:name=".AplanActivity" >
+
+        </activity>
         <activity android:name=".OtpActivity2" />
         <activity android:name=".Plans_Activity" />
-        <activity android:name=".dashboard" />
+        <activity android:name=".dashboard" >
+
+
+        </activity>
         <activity android:name=".OtpActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

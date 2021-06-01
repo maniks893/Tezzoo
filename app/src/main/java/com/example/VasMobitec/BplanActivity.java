@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +13,7 @@ public class BplanActivity extends AppCompatActivity {
 
     Button planB1200, planb2000, plan4000, plan8000, tpay, backb, plan_800, plan_2000;
     TextView showtotal;
+    ImageView rev2B;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,15 @@ public class BplanActivity extends AppCompatActivity {
         plan_2000 = findViewById(R.id.btn_plan_6mnth_2000);
         plan_800 = findViewById(R.id.btn_planB800);
         showtotal = findViewById(R.id.show_total_planb_1yr);
+        rev2B = findViewById(R.id.revB);
+
+        rev2B.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),plans.class);
+                startActivity(intent);
+            }
+        });
 
         planB1200.setOnClickListener(new View.OnClickListener() {
             @Override
